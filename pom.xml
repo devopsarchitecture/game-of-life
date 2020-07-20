@@ -216,7 +216,7 @@
         <repository>
             <id>nexus</id>
             <name>Test Releases Nexus Repository</name>
-            <url>http://13.232.192.58:8081/repository/MavenTestHostRepo/</url>
+            <url>http://13.232.192.58:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>nexus</id>
