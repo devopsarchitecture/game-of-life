@@ -20,14 +20,6 @@
         <jelastic.context>gameoflife</jelastic.context>
         <jelastic.environment>wakaleo</jelastic.environment>
     </properties>
-    <servers>
-        <server>
-            <id>nexus</id>
-            <username>admin</username>
-            <password>admin</password>
-        </server>
-    </servers>
-
     <scm>
         <connection>scm:git:git@github.com:${github.account}/game-of-life.git</connection>
         <developerConnection>scm:git:git@github.com:${github.account}/game-of-life.git</developerConnection>
@@ -223,7 +215,6 @@
             <name>Test Snapshot Nexus Repository </name>
             <url>http://13.232.192.58:8081/repository/MavenTestHostRepo/</url>
         </snapshotRepository>
-        
         <repositories>
             <repository>
             <id>central</id>
